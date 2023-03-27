@@ -5,9 +5,41 @@
 }
 
 
-.grid container{
-    background-color: brown;
+.grid-container{
+   
     display:grid;
-    grid-template-columns: repeat(3; 1fr);
-    gap:8px;
+    grid-template-columns:1fr 1fr  1fr; 
+    gap:20px;
+    background-color: whitesmoke;
+    height: 100vh;
+    width: 100%;
+    margin-top:10px;
+    justify-content:space-between;
+  
+
+
+   
+}
+.grid-container div{
+    background-color: gold;
+    width: 200px;
+    height: 100px;
+    margin-top: 20px;
+    text-align: center;
+    margin-left:25%;
+    
+    
+   
+
+}
+@media only screen and (max-width:40em);
+section{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    
+    
+    
 }
