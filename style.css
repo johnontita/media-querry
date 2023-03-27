@@ -1,0 +1,13 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+.grid container{
+    background-color: brown;
+    display:grid;
+    grid-template-columns: repeat(3; 1fr);
+    gap:8px;
+}
